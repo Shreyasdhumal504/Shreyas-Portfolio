@@ -4,7 +4,7 @@ import { Rocket, Satellite, Plane, Telescope, Cpu, Wind, Code, Globe, Music, Pen
 export const PERSONAL_INFO = {
   name: "Shreyas Satish Dhumal",
   tagline: "Aerospace Engineer · UAV & Space Tech Enthusiast",
-  summary: "Aerospace engineer with hands-on experience in UAV design, heavy-payload drones, and aerospace prototyping through projects at BDL, VTOL Aviation India, and TiHAN–IIT Hyderabad. Skilled in navigation systems, control projects, and drone development. Certified DGCA drone pilot and active citizen scientist contributing to astronomy and planetary science research.",
+  summary: "Aerospace engineer with hands on experience in UAV design, flight testing, and drone system integration through work at TIHAN IIT Hyderabad, Bharat Dynamics Limited, and Radar Sniper. Skilled in UAV systems, navigation and control systems, avionics integration, and aerospace prototyping. Certified remote pilot with additional exposure to space technologies at IISc, Bangalore and contributions to astronomy citizen science research.",
   email: "shreyasdhumal504@gmail.com",
   phone: "+91 7798024236",
   location: "Pune, Maharashtra, India",
@@ -13,6 +13,16 @@ export const PERSONAL_INFO = {
 };
 
 export const EXPERIENCE_DATA: Experience[] = [
+  {
+    id: "radar-sniper",
+    role: "Drone R&D Engineer",
+    company: "Radar Sniper",
+    period: "Dec 2025 – Jan 2026",
+    description: [
+      "Led development and flight validation of 4 UAV platforms (NDT, terrain mapping, agricultural, research), preparing technical & component documentation, resolving flight controller orientation, motor mapping, UART, and telemetry integration issues.",
+      "Designed an Aircraft MRO prototype and acted as technical spokesperson in discussions with Tata Technologies, preparing CAD Models, cost estimates and client ready presentations."
+    ]
+  },
   {
     id: "tihan-fellow",
     role: "Research Assistant Fellow",
@@ -50,6 +60,11 @@ export const EXPERIENCE_DATA: Experience[] = [
 ];
 
 export const EDUCATION_DATA: Education[] = [
+  {
+    degree: "English Proficiency Test - Duolingo English Test (130/160, CEFR C1)",
+    institution: "Duolingo",
+    year: "Feb 2026"
+  },
   {
     degree: "Advanced Certification in Space Technologies",
     institution: "IISc Bangalore",
